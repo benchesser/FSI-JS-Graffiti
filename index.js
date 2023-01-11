@@ -1,6 +1,10 @@
 
 let header = document.querySelector('#page-header')
 header.style.textAlign = 'left'
+header.style.color = 'white'
+header.style.backgroundColor = 'black'
+header.style.borderColor = 'black'
+header.style.borderStyle = 'solid'
 
 let dogImages = document.querySelectorAll('.dog-image')
 for(let i = 0; i < dogImages.length; i++){
